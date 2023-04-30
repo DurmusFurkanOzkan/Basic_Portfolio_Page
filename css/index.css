@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(19, 30, 37);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    
+    font-size: 16px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+   
+   
+}
+
+
+/*    HEADER   */
+
+header h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(210, 180, 140);
+    display: inline-block;
+    width: 100px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover{
+    color: red;
+    background-color: rgb(115, 105, 89);
+}
+
+/* The second section  */
+
+main section h1{
+
+    font-family: 'Rampart One', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    color:rgb(255, 235, 205);
+    margin-bottom: 200px;
+}
+
+
+/* The images section  */
+
+.Images{
+    display: flex;    
+    width: 100%;
+    margin-top: 20px;
+}
+
+main section section article{
+    margin-left: 1px;
+}
+
+main section section article figcaption img{
+    border-radius: 10px;
+}
+
+main section section article figcaption img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*  FOOTER   */
+
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+footer h2,main section h3{
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+footer section article {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+footer section article a {
+    color: rgb(210, 180, 140);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer section article a:hover {
+    color: red;
+}
+
+footer h3{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+footer form  {
+    width: 60%;
+    margin: auto;
+}
+
+footer form input,textarea,button{
+    display: block;
+    background-color: transparent;
+    border-color:  rgb(210, 180, 140);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    border-style: solid;
+    font-size: 19px;
+} 
+
+footer form input,button{
+    
+    height: 50px;
+}
+
+footer form input:focus,textarea:focus{
+    outline: red;
+    border-color: red;
+
+}
+
+footer form .button{
+
+    background-color:  rgb(210, 180, 140);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer form .button:hover{
+    color: #FF4500;
+    height: 60px;
+}
+
+footer form .button:hover::after{
+    font-family: "Font Awesome 6 free"; 
+	font-weight: 900;
+	content: ' \f14d';
+}
+
+/*  LAST TOP  */
+
+#top{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(210, 180, 140);
+    display: inline-block;
+    width: 100px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 90%;
+}
+
+
+@media only screen and (min-width:1300px) {
+    
+    .Images{
+        margin-left: -60px;
+    }
+    
+}
+
+@media only screen and (max-width:1400px) {
+    
+    main section section article figcaption img{
+        width: 250px;
+    }
+    
+}
